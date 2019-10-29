@@ -1,3 +1,4 @@
+data "aws_caller_identity" "self" {}
 
 # My AMI
 data "aws_ami" "myami" {
